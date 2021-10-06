@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servey Form</title>
+  </head>
+  <body>
+    <div align="center">
+      <h1>Employee Interests Survey Form</h1>
+      <form action="#">
+        <label for="name">Enter Your Name:</label>
+        <input type="text" />
+        <br />
+        <br />
+        <label for="department">Enter Your Department:</label>
+        <input type="text" />
+        <br /><br />
+        <label for="text">Tell Us Little About Yourself:</label>
+        <textarea name="message" id="" cols="-30" rows="5"></textarea>
+        <br /><br />
+        <label for="text">Do you excercise at home:</label>
+        <input type="radio" name="yes_no" value="Yes" checked />Yes
+        <input type="radio" name="yes_no" value="No" /> No
+        <p>How do you like to read about your favourite topics?</p>
+        <input type="checkbox" name="topics" id="books" />Books
+        <input type="checkbox" name="topics" id="onlineresources" />Online
+        Resources
+        <input type="checkbox" name="topics" id="phone" />
+        Phone Apps
+        <input type="checkbox" name="topics" id="magazines" />Magazines
+        <br /><br />
+        <label for="genre">What genre of movies do you like?</label>
+        <select name="genre" id="movies">
+          <option value="comedy" selected>Comedy</option>
+          <option value="action">Action</option>
+          <option value="horror">Horror</option>
+          <option value="romance">Romantic</option>
+        </select>
+      </form>
+    </div>
+  </body>
+</html>
